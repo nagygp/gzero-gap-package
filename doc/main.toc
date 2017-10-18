@@ -1,0 +1,50 @@
+\contentsline {chapter}{\numberline {1}\leavevmode {\color {Chapter }Introduction}}{4}{chapter.1}
+\contentsline {section}{\numberline {1.1}\leavevmode {\color {Chapter }Unpacking the \textsf {GZero} Package}}{4}{section.1.1}
+\contentsline {section}{\numberline {1.2}\leavevmode {\color {Chapter }Loading the \textsf {GZero} Package}}{5}{section.1.2}
+\contentsline {section}{\numberline {1.3}\leavevmode {\color {Chapter }Testing the \textsf {GZero} Package}}{5}{section.1.3}
+\contentsline {chapter}{\numberline {2}\leavevmode {\color {Chapter }Mathematical background}}{6}{chapter.2}
+\contentsline {section}{\numberline {2.1}\leavevmode {\color {Chapter }Blabla}}{6}{section.2.1}
+\contentsline {chapter}{\numberline {3}\leavevmode {\color {Chapter }How to use the package}}{7}{chapter.3}
+\contentsline {section}{\numberline {3.1}\leavevmode {\color {Chapter }Genus zero curves}}{7}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}\leavevmode {\color {Chapter }IsGZ{\textunderscore }Curve}}{7}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}\leavevmode {\color {Chapter }GZ{\textunderscore }Curve}}{7}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}\leavevmode {\color {Chapter }IndeterminateOfGZ{\textunderscore }Curve}}{7}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}\leavevmode {\color {Chapter }UnderlyingField}}{7}{subsection.3.1.4}
+\contentsline {subsection}{\numberline {3.1.5}\leavevmode {\color {Chapter }RandomPlaceOfGZ{\textunderscore }Curve}}{7}{subsection.3.1.5}
+\contentsline {subsection}{\numberline {3.1.6}\leavevmode {\color {Chapter }FrobeniusAutomorphismOfGZ{\textunderscore }Curve}}{8}{subsection.3.1.6}
+\contentsline {subsection}{\numberline {3.1.7}\leavevmode {\color {Chapter }IsGZ{\textunderscore }CurveAutomorphism}}{8}{subsection.3.1.7}
+\contentsline {subsection}{\numberline {3.1.8}\leavevmode {\color {Chapter }GZ{\textunderscore }CurveAutomorphism}}{8}{subsection.3.1.8}
+\contentsline {subsection}{\numberline {3.1.9}\leavevmode {\color {Chapter }AutomorphismGroup}}{8}{subsection.3.1.9}
+\contentsline {section}{\numberline {3.2}\leavevmode {\color {Chapter }Genus zero divisors}}{9}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}\leavevmode {\color {Chapter }IsGZ{\textunderscore }Divisor}}{9}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}\leavevmode {\color {Chapter }GZ{\textunderscore }DivisorConstruct}}{9}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}\leavevmode {\color {Chapter }GZ{\textunderscore }Divisor}}{9}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}\leavevmode {\color {Chapter }GZ{\textunderscore }1PointDivisor}}{9}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}\leavevmode {\color {Chapter }GZ{\textunderscore }ZeroDivisor}}{9}{subsection.3.2.5}
+\contentsline {subsection}{\numberline {3.2.6}\leavevmode {\color {Chapter }IsRationalGZ{\textunderscore }Divisor}}{9}{subsection.3.2.6}
+\contentsline {subsection}{\numberline {3.2.7}\leavevmode {\color {Chapter }UnderlyingField}}{10}{subsection.3.2.7}
+\contentsline {subsection}{\numberline {3.2.8}\leavevmode {\color {Chapter }Support}}{10}{subsection.3.2.8}
+\contentsline {subsection}{\numberline {3.2.9}\leavevmode {\color {Chapter }Valuation}}{10}{subsection.3.2.9}
+\contentsline {subsection}{\numberline {3.2.10}\leavevmode {\color {Chapter }GZ{\textunderscore }PrincipalDivisor}}{10}{subsection.3.2.10}
+\contentsline {subsection}{\numberline {3.2.11}\leavevmode {\color {Chapter }GZ{\textunderscore }SupremumDivisor}}{10}{subsection.3.2.11}
+\contentsline {subsection}{\numberline {3.2.12}\leavevmode {\color {Chapter }GZ{\textunderscore }InfimumDivisor}}{10}{subsection.3.2.12}
+\contentsline {subsection}{\numberline {3.2.13}\leavevmode {\color {Chapter }GZ{\textunderscore }PositivePartOfDivisor}}{10}{subsection.3.2.13}
+\contentsline {subsection}{\numberline {3.2.14}\leavevmode {\color {Chapter }GZ{\textunderscore }NegativePartOfDivisor}}{11}{subsection.3.2.14}
+\contentsline {section}{\numberline {3.3}\leavevmode {\color {Chapter }Genus zero Riemann-Roch spaces}}{12}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}\leavevmode {\color {Chapter }GZ{\textunderscore }Equivalent1PointDivisor}}{12}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}\leavevmode {\color {Chapter }GZ{\textunderscore }RiemannRochSpaceBasis}}{12}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.4}\leavevmode {\color {Chapter }Genus zero AG-codes}}{12}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}\leavevmode {\color {Chapter }IsGZ{\textunderscore }Code}}{12}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}\leavevmode {\color {Chapter }GeneratorMatrixOfFunctionalGZ{\textunderscore }CodeNC}}{13}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}\leavevmode {\color {Chapter }GZ{\textunderscore }FunctionalCode}}{13}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}\leavevmode {\color {Chapter }GZ{\textunderscore }DifferentialCode}}{13}{subsection.3.4.4}
+\contentsline {subsection}{\numberline {3.4.5}\leavevmode {\color {Chapter }Length}}{13}{subsection.3.4.5}
+\contentsline {subsection}{\numberline {3.4.6}\leavevmode {\color {Chapter }GeneratorMatrixOfGZ{\textunderscore }Code}}{13}{subsection.3.4.6}
+\contentsline {subsection}{\numberline {3.4.7}\leavevmode {\color {Chapter }DesignedMinimumDistance}}{14}{subsection.3.4.7}
+\contentsline {subsection}{\numberline {3.4.8}\leavevmode {\color {Chapter }GZ{\textunderscore }DecodeToCodeword}}{14}{subsection.3.4.8}
+\contentsline {section}{\numberline {3.5}\leavevmode {\color {Chapter }Utilities for genus zero AG-codes}}{15}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}\leavevmode {\color {Chapter }RestrictVectorSpace}}{15}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}\leavevmode {\color {Chapter }UPolCoeffsToSmallFieldNC}}{15}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}\leavevmode {\color {Chapter }RandomVectorOfGivenWeight}}{15}{subsection.3.5.3}
+\contentsline {chapter}{\numberline {4}\leavevmode {\color {Chapter }An example: BCH codes as genus zero AG-codes}}{17}{chapter.4}
+\contentsline {chapter}{Index}{19}{section*.4}

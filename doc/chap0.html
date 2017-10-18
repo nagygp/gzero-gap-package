@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<title>GAP (GZero) - Contents</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="GAPDoc2HTML" />
+<link rel="stylesheet" type="text/css" href="manual.css" />
+<script src="manual.js" type="text/javascript"></script>
+<script type="text/javascript">overwriteStyle();</script>
+</head>
+<body class="chap0"  onload="jscontent()">
+
+
+<div class="chlinktop"><span class="chlink1">Goto Chapter: </span><a href="chap0.html">Top</a>  <a href="chap1.html">1</a>  <a href="chap2.html">2</a>  <a href="chap3.html">3</a>  <a href="chap4.html">4</a>  <a href="chapInd.html">Ind</a>  </div>
+
+<div class="chlinkprevnexttop">&nbsp;<a href="chap0.html">[Top of Book]</a>&nbsp;  <a href="chap0.html#contents">[Contents]</a>&nbsp;  &nbsp;<a href="chap1.html">[Next Chapter]</a>&nbsp;  </div>
+
+<p id="mathjaxlink" class="pcenter"><a href="chap0_mj.html">[MathJax on]</a></p>
+<p><a id="X7D2C85EC87DD46E5" name="X7D2C85EC87DD46E5"></a></p>
+<div class="pcenter">
+
+<h1>The <strong class="pkg">GZero</strong> Package</h1>
+
+
+<h2>Divisors and Riemann-Roch Spaces of Algebraic Function Fields of Genus Zero</h2>
+
+<p>Version 0.21</p>
+
+<p>12 October 2017</p>
+
+</div>
+<p><b> Gábor P. Nagy
+    
+    
+  </b>
+<br />Email: <span class="URL"><a href="mailto:nagyg@math.u-szeged.hu">nagyg@math.u-szeged.hu</a></span>
+<br />Homepage: <span class="URL"><a href="http://www.math.u-szeged.hu/~nagyg/">http://www.math.u-szeged.hu/~nagyg/</a></span>
+</p>
+
+<p><a id="X81488B807F2A1CF1" name="X81488B807F2A1CF1"></a></p>
+<h3>Copyright</h3>
+<p>© 2017 by Gábor P. Nagy</p>
+
+<p><strong class="pkg">GZero</strong> package is free software; you can redistribute it and/or modify it under the terms of the <span class="URL"><a href="http://www.fsf.org/licenses/gpl.html">GNU General Public License</a></span> as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</p>
+
+<p><a id="X82A988D47DFAFCFA" name="X82A988D47DFAFCFA"></a></p>
+<h3>Acknowledgements</h3>
+<p>We appreciate very much all past and future comments, suggestions and contributions to this package and its documentation provided by <strong class="pkg">GAP</strong> users and developers.</p>
+
+<p><a id="X8537FEB07AF2BEC8" name="X8537FEB07AF2BEC8"></a></p>
+
+<div class="contents">
+<h3>Contents<a id="contents" name="contents"></a></h3>
+
+<div class="ContChap"><a href="chap1.html#X7DFB63A97E67C0A1">1 <span class="Heading">Introduction</span></a>
+<div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap1.html#X7947EB3483D3E6BD">1.1 <span class="Heading">Unpacking the <strong class="pkg">GZero</strong> Package</span></a>
+</span>
+</div>
+<div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap1.html#X8522F06084C32A4D">1.2 <span class="Heading">Loading the <strong class="pkg">GZero</strong> Package</span></a>
+</span>
+</div>
+<div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap1.html#X868165D87EA0AF48">1.3 <span class="Heading">Testing the <strong class="pkg">GZero</strong> Package</span></a>
+</span>
+</div>
+</div>
+<div class="ContChap"><a href="chap2.html#X7EF1B6708069B0C7">2 <span class="Heading">Mathematical background</span></a>
+<div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap2.html#X8120363781D6D51D">2.1 <span class="Heading">Blabla</span></a>
+</span>
+</div>
+</div>
+<div class="ContChap"><a href="chap3.html#X7FC3D36E8639C331">3 <span class="Heading">How to use the package</span></a>
+<div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap3.html#X7DA745887BFF189D">3.1 <span class="Heading">Genus zero curves</span></a>
+</span>
+<div class="ContSSBlock">
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X80F99CB17BC077A8">3.1-1 IsGZ_Curve</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X8442EE1B792650BA">3.1-2 GZ_Curve</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X7D6DD3E382EA1965">3.1-3 IndeterminateOfGZ_Curve</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X790470C48340E8F7">3.1-4 UnderlyingField</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X847F1C84795287B6">3.1-5 RandomPlaceOfGZ_Curve</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X8307ED097B2DB06A">3.1-6 FrobeniusAutomorphismOfGZ_Curve</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X7B3633597CAFA7AA">3.1-7 IsGZ_CurveAutomorphism</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X7EED9FF48672EFE9">3.1-8 GZ_CurveAutomorphism</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X87677B0787B4461A">3.1-9 <span class="Heading">AutomorphismGroup</span></a>
+</span>
+</div></div>
+<div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap3.html#X876A3D977D462755">3.2 <span class="Heading">Genus zero divisors</span></a>
+</span>
+<div class="ContSSBlock">
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X8338F576793D136C">3.2-1 IsGZ_Divisor</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X82AC5A5C838D0594">3.2-2 GZ_DivisorConstruct</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X7A5C7B027C47C3ED">3.2-3 GZ_Divisor</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X874E47E3850CC5DC">3.2-4 GZ_1PointDivisor</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X8200279679BB7FEF">3.2-5 GZ_ZeroDivisor</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X856D9CBB87DC9682">3.2-6 IsRationalGZ_Divisor</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X790470C48340E8F7">3.2-7 UnderlyingField</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X7B689C0284AC4296">3.2-8 Support</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X80D67BB67A509A56">3.2-9 Valuation</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X8358FD3885FABA30">3.2-10 GZ_PrincipalDivisor</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X87956889816FD1AF">3.2-11 GZ_SupremumDivisor</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X7FF1448D7B18F5C3">3.2-12 GZ_InfimumDivisor</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X83C3A64A7CBC9FCC">3.2-13 GZ_PositivePartOfDivisor</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X81E7F42279A17CA2">3.2-14 GZ_NegativePartOfDivisor</a></span>
+</div></div>
+<div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap3.html#X7F6CA34585EEDA75">3.3 <span class="Heading">Genus zero Riemann-Roch spaces</span></a>
+</span>
+<div class="ContSSBlock">
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X83EC2B2C801216DD">3.3-1 GZ_Equivalent1PointDivisor</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X824E0C947B314093">3.3-2 GZ_RiemannRochSpaceBasis</a></span>
+</div></div>
+<div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap3.html#X8519CCF8782192CA">3.4 <span class="Heading">Genus zero AG-codes</span></a>
+</span>
+<div class="ContSSBlock">
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X810A5F387B8EEA48">3.4-1 IsGZ_Code</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X84E44E038531B3E7">3.4-2 GeneratorMatrixOfFunctionalGZ_CodeNC</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X7B55263684F49B0B">3.4-3 GZ_FunctionalCode</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X7FF603CC86081DD9">3.4-4 GZ_DifferentialCode</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X780769238600AFD1">3.4-5 Length</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X784B20AB79F23689">3.4-6 GeneratorMatrixOfGZ_Code</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X84EB7DAF7DB9DB9F">3.4-7 DesignedMinimumDistance</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X7864B295782524EB">3.4-8 GZ_DecodeToCodeword</a></span>
+</div></div>
+<div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap3.html#X7ACE2DF587589A08">3.5 <span class="Heading">Utilities for genus zero AG-codes</span></a>
+</span>
+<div class="ContSSBlock">
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X853BF1BC7F6462B8">3.5-1 RestrictVectorSpace</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X8596810487A72298">3.5-2 UPolCoeffsToSmallFieldNC</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X7D6980057AF64327">3.5-3 RandomVectorOfGivenWeight</a></span>
+</div></div>
+</div>
+<div class="ContChap"><a href="chap4.html#X8683ED827FE8F859">4 <span class="Heading">An example: BCH codes as genus zero AG-codes</span></a>
+</div>
+<div class="ContChap"><a href="chapInd.html"><span class="Heading">Index</span></a></div>
+<br />
+</div>
+
+<div class="chlinkprevnextbot">&nbsp;<a href="chap0.html">[Top of Book]</a>&nbsp;  <a href="chap0.html#contents">[Contents]</a>&nbsp;  &nbsp;<a href="chap1.html">[Next Chapter]</a>&nbsp;  </div>
+
+
+<div class="chlinkbot"><span class="chlink1">Goto Chapter: </span><a href="chap0.html">Top</a>  <a href="chap1.html">1</a>  <a href="chap2.html">2</a>  <a href="chap3.html">3</a>  <a href="chap4.html">4</a>  <a href="chapInd.html">Ind</a>  </div>
+
+<hr />
+<p class="foot">generated by <a href="http://www.math.rwth-aachen.de/~Frank.Luebeck/GAPDoc">GAPDoc2HTML</a></p>
+</body>
+</html>

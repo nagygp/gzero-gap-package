@@ -1,0 +1,9 @@
+                             The GZero package
+
+This is the README file for the GAP package "GZero".
+
+Start GAP and type
+
+	LoadPackage("GZero");
+
+  Contact: nagyg at math.u-szeged.hu

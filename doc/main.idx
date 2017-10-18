@@ -1,0 +1,50 @@
+\indexentry{License|hyperpage}{2}
+\indexentry{GZero package|hyperpage}{4}
+\indexentry{IsGZCurve@\texttt  {IsGZ{\textunderscore }Curve}|hyperpage}{7}
+\indexentry{GZCurve@\texttt  {GZ{\textunderscore }Curve}|hyperpage}{7}
+\indexentry{IndeterminateOfGZCurve@\texttt  {Indeterminate}\discretionary {-}{}{}\texttt  {Of}\discretionary {-}{}{}\texttt  {G}\discretionary {-}{}{}\texttt  {Z{\textunderscore }}\discretionary {-}{}{}\texttt  {Curve}|hyperpage}{7}
+\indexentry{UnderlyingField@\texttt  {UnderlyingField}|hyperpage}{7}
+\indexentry{RandomPlaceOfGZCurve@\texttt  {Random}\discretionary {-}{}{}\texttt  {Place}\discretionary {-}{}{}\texttt  {Of}\discretionary {-}{}{}\texttt  {G}\discretionary {-}{}{}\texttt  {Z{\textunderscore }}\discretionary {-}{}{}\texttt  {Curve}|hyperpage}{7}
+\indexentry{RandomPlaceOfGZCurve@\texttt  {Random}\discretionary {-}{}{}\texttt  {Place}\discretionary {-}{}{}\texttt  {Of}\discretionary {-}{}{}\texttt  {G}\discretionary {-}{}{}\texttt  {Z{\textunderscore }}\discretionary {-}{}{}\texttt  {Curve}|hyperpage}{7}
+\indexentry{FrobeniusAutomorphismOfGZCurve@\texttt  {Frobenius}\discretionary {-}{}{}\texttt  {Automorphism}\discretionary {-}{}{}\texttt  {Of}\discretionary {-}{}{}\texttt  {G}\discretionary {-}{}{}\texttt  {Z{\textunderscore }}\discretionary {-}{}{}\texttt  {Curve}|hyperpage}{8}
+\indexentry{IsGZCurveAutomorphism@\texttt  {IsG}\discretionary {-}{}{}\texttt  {Z{\textunderscore }}\discretionary {-}{}{}\texttt  {Curve}\discretionary {-}{}{}\texttt  {Automorphism}|hyperpage}{8}
+\indexentry{GZCurveAutomorphism@\texttt  {GZ{\textunderscore }}\discretionary {-}{}{}\texttt  {Curve}\discretionary {-}{}{}\texttt  {Automorphism}|hyperpage}{8}
+\indexentry{MatrixGroupToGZCurveAutGroup@\texttt  {Matrix}\discretionary {-}{}{}\texttt  {Group}\discretionary {-}{}{}\texttt  {To}\discretionary {-}{}{}\texttt  {G}\discretionary {-}{}{}\texttt  {Z{\textunderscore }}\discretionary {-}{}{}\texttt  {Curve}\discretionary {-}{}{}\texttt  {Aut}\discretionary {-}{}{}\texttt  {Group}|hyperpage}{8}
+\indexentry{AutomorphismGroup@\texttt  {AutomorphismGroup}|hyperpage}{8}
+\indexentry{IsGZDivisor@\texttt  {IsGZ{\textunderscore }Divisor}|hyperpage}{9}
+\indexentry{GZDivisorConstruct@\texttt  {GZ{\textunderscore }DivisorConstruct}|hyperpage}{9}
+\indexentry{GZDivisor@\texttt  {GZ{\textunderscore }Divisor}|hyperpage}{9}
+\indexentry{GZDivisor@\texttt  {GZ{\textunderscore }Divisor}|hyperpage}{9}
+\indexentry{GZ1PointDivisor@\texttt  {GZ{\textunderscore }1PointDivisor}|hyperpage}{9}
+\indexentry{GZ1PointDivisor@\texttt  {GZ{\textunderscore }1PointDivisor}|hyperpage}{9}
+\indexentry{GZZeroDivisor@\texttt  {GZ{\textunderscore }ZeroDivisor}|hyperpage}{9}
+\indexentry{IsRationalGZDivisor@\texttt  {IsRational}\discretionary {-}{}{}\texttt  {G}\discretionary {-}{}{}\texttt  {Z{\textunderscore }}\discretionary {-}{}{}\texttt  {Divisor}|hyperpage}{9}
+\indexentry{UnderlyingField@\texttt  {UnderlyingField}|hyperpage}{10}
+\indexentry{Support@\texttt  {Support}|hyperpage}{10}
+\indexentry{Valuation@\texttt  {Valuation}|hyperpage}{10}
+\indexentry{Valuation@\texttt  {Valuation}|hyperpage}{10}
+\indexentry{GZPrincipalDivisor@\texttt  {GZ{\textunderscore }PrincipalDivisor}|hyperpage}{10}
+\indexentry{GZSupremumDivisor@\texttt  {GZ{\textunderscore }SupremumDivisor}|hyperpage}{10}
+\indexentry{GZInfimumDivisor@\texttt  {GZ{\textunderscore }InfimumDivisor}|hyperpage}{10}
+\indexentry{GZPositivePartOfDivisor@\texttt  {GZ{\textunderscore }}\discretionary {-}{}{}\texttt  {Positive}\discretionary {-}{}{}\texttt  {Part}\discretionary {-}{}{}\texttt  {Of}\discretionary {-}{}{}\texttt  {Divisor}|hyperpage}{10}
+\indexentry{GZNegativePartOfDivisor@\texttt  {GZ{\textunderscore }}\discretionary {-}{}{}\texttt  {Negative}\discretionary {-}{}{}\texttt  {Part}\discretionary {-}{}{}\texttt  {Of}\discretionary {-}{}{}\texttt  {Divisor}|hyperpage}{11}
+\indexentry{GZEquivalent1PointDivisor@\texttt  {GZ{\textunderscore }}\discretionary {-}{}{}\texttt  {Equivalent1}\discretionary {-}{}{}\texttt  {Point}\discretionary {-}{}{}\texttt  {Divisor}|hyperpage}{12}
+\indexentry{GZRiemannRochSpaceBasis@\texttt  {GZ{\textunderscore }}\discretionary {-}{}{}\texttt  {Riemann}\discretionary {-}{}{}\texttt  {Roch}\discretionary {-}{}{}\texttt  {Space}\discretionary {-}{}{}\texttt  {Basis}|hyperpage}{12}
+\indexentry{IsGZCode@\texttt  {IsGZ{\textunderscore }Code}|hyperpage}{12}
+\indexentry{IsGZFunctionalCode@\texttt  {IsGZ{\textunderscore }FunctionalCode}|hyperpage}{12}
+\indexentry{IsGZDifferentialCode@\texttt  {IsG}\discretionary {-}{}{}\texttt  {Z{\textunderscore }}\discretionary {-}{}{}\texttt  {Differential}\discretionary {-}{}{}\texttt  {Code}|hyperpage}{13}
+\indexentry{GeneratorMatrixOfFunctionalGZCodeNC@\texttt  {Generator}\discretionary {-}{}{}\texttt  {Matrix}\discretionary {-}{}{}\texttt  {Of}\discretionary {-}{}{}\texttt  {Functional}\discretionary {-}{}{}\texttt  {G}\discretionary {-}{}{}\texttt  {Z{\textunderscore }}\discretionary {-}{}{}\texttt  {CodeNC}|hyperpage}{13}
+\indexentry{GZFunctionalCode@\texttt  {GZ{\textunderscore }FunctionalCode}|hyperpage}{13}
+\indexentry{GZFunctionalCode@\texttt  {GZ{\textunderscore }FunctionalCode}|hyperpage}{13}
+\indexentry{GZDifferentialCode@\texttt  {GZ{\textunderscore }DifferentialCode}|hyperpage}{13}
+\indexentry{GZDifferentialCode@\texttt  {GZ{\textunderscore }DifferentialCode}|hyperpage}{13}
+\indexentry{Length@\texttt  {Length}|hyperpage}{13}
+\indexentry{GeneratorMatrixOfGZCode@\texttt  {Generator}\discretionary {-}{}{}\texttt  {Matrix}\discretionary {-}{}{}\texttt  {Of}\discretionary {-}{}{}\texttt  {G}\discretionary {-}{}{}\texttt  {Z{\textunderscore }}\discretionary {-}{}{}\texttt  {Code}|hyperpage}{13}
+\indexentry{DesignedMinimumDistance@\texttt  {DesignedMinimumDistance}|hyperpage}{14}
+\indexentry{GZDecodeToCodeword@\texttt  {GZ{\textunderscore }DecodeToCodeword}|hyperpage}{14}
+\indexentry{RestrictVectorSpace@\texttt  {RestrictVectorSpace}|hyperpage}{15}
+\indexentry{UPolCoeffsToSmallFieldNC@\texttt  {UPolCoeffsToSmallFieldNC}|hyperpage}{15}
+\indexentry{RandomVectorOfGivenWeight@\texttt  {RandomVectorOfGivenWeight}|hyperpage}{15}
+\indexentry{RandomVectorOfGivenDensity@\texttt  {RandomVectorOfGivenDensity}|hyperpage}{15}
+\indexentry{RandomBinaryVectorOfGivenWeight@\texttt  {RandomBinaryVectorOfGivenWeight}|hyperpage}{15}
+\indexentry{RandomBinaryVectorOfGivenDensity@\texttt  {RandomBinaryVectorOfGivenDensity}|hyperpage}{16}

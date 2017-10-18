@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<script type="text/javascript"
+  src="http://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<title>GAP (GZero) - Chapter 3: How to use the package</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="GAPDoc2HTML" />
+<link rel="stylesheet" type="text/css" href="manual.css" />
+<script src="manual.js" type="text/javascript"></script>
+<script type="text/javascript">overwriteStyle();</script>
+</head>
+<body class="chap3"  onload="jscontent()">
+
+
+<div class="chlinktop"><span class="chlink1">Goto Chapter: </span><a href="chap0_mj.html">Top</a>  <a href="chap1_mj.html">1</a>  <a href="chap2_mj.html">2</a>  <a href="chap3_mj.html">3</a>  <a href="chap4_mj.html">4</a>  <a href="chapInd_mj.html">Ind</a>  </div>
+
+<div class="chlinkprevnexttop">&nbsp;<a href="chap0_mj.html">[Top of Book]</a>&nbsp;  <a href="chap0_mj.html#contents">[Contents]</a>&nbsp;  &nbsp;<a href="chap2_mj.html">[Previous Chapter]</a>&nbsp;  &nbsp;<a href="chap4_mj.html">[Next Chapter]</a>&nbsp;  </div>
+
+<p id="mathjaxlink" class="pcenter"><a href="chap3.html">[MathJax off]</a></p>
+<p><a id="X7FC3D36E8639C331" name="X7FC3D36E8639C331"></a></p>
+<div class="ChapSects"><a href="chap3_mj.html#X7FC3D36E8639C331">3 <span class="Heading">How to use the package</span></a>
+<div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap3_mj.html#X7DA745887BFF189D">3.1 <span class="Heading">Genus zero curves</span></a>
+</span>
+<div class="ContSSBlock">
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3_mj.html#X80F99CB17BC077A8">3.1-1 IsGZ_Curve</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3_mj.html#X8442EE1B792650BA">3.1-2 GZ_Curve</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3_mj.html#X7D6DD3E382EA1965">3.1-3 IndeterminateOfGZ_Curve</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3_mj.html#X790470C48340E8F7">3.1-4 UnderlyingField</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3_mj.html#X847F1C84795287B6">3.1-5 RandomPlaceOfGZ_Curve</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3_mj.html#X8307ED097B2DB06A">3.1-6 FrobeniusAutomorphismOfGZ_Curve</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3_mj.html#X7B3633597CAFA7AA">3.1-7 IsGZ_CurveAutomorphism</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3_mj.html#X7EED9FF48672EFE9">3.1-8 GZ_CurveAutomorphism</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3_mj.html#X87677B0787B4461A">3.1-9 <span class="Heading">AutomorphismGroup</span></a>
+</span>
+</div></div>
+<div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap3_mj.html#X876A3D977D462755">3.2 <span class="Heading">Genus zero divisors</span></a>
+</span>
+<div class="ContSSBlock">
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3_mj.html#X8338F576793D136C">3.2-1 IsGZ_Divisor</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3_mj.html#X82AC5A5C838D0594">3.2-2 GZ_DivisorConstruct</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3_mj.html#X7A5C7B027C47C3ED">3.2-3 GZ_Divisor</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3_mj.html#X874E47E3850CC5DC">3.2-4 GZ_1PointDivisor</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3_mj.html#X8200279679BB7FEF">3.2-5 GZ_ZeroDivisor</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3_mj.html#X856D9CBB87DC9682">3.2-6 IsRationalGZ_Divisor</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3_mj.html#X790470C48340E8F7">3.2-7 UnderlyingField</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3_mj.html#X7B689C0284AC4296">3.2-8 Support</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3_mj.html#X80D67BB67A509A56">3.2-9 Valuation</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3_mj.html#X8358FD3885FABA30">3.2-10 GZ_PrincipalDivisor</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3_mj.html#X87956889816FD1AF">3.2-11 GZ_SupremumDivisor</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3_mj.html#X7FF1448D7B18F5C3">3.2-12 GZ_InfimumDivisor</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3_mj.html#X83C3A64A7CBC9FCC">3.2-13 GZ_PositivePartOfDivisor</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3_mj.html#X81E7F42279A17CA2">3.2-14 GZ_NegativePartOfDivisor</a></span>
+</div></div>
+<div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap3_mj.html#X7F6CA34585EEDA75">3.3 <span class="Heading">Genus zero Riemann-Roch spaces</span></a>
+</span>
+<div class="ContSSBlock">
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3_mj.html#X83EC2B2C801216DD">3.3-1 GZ_Equivalent1PointDivisor</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3_mj.html#X824E0C947B314093">3.3-2 GZ_RiemannRochSpaceBasis</a></span>
+</div></div>
+<div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap3_mj.html#X8519CCF8782192CA">3.4 <span class="Heading">Genus zero AG-codes</span></a>
+</span>
+<div class="ContSSBlock">
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3_mj.html#X810A5F387B8EEA48">3.4-1 IsGZ_Code</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3_mj.html#X84E44E038531B3E7">3.4-2 GeneratorMatrixOfFunctionalGZ_CodeNC</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3_mj.html#X7B55263684F49B0B">3.4-3 GZ_FunctionalCode</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3_mj.html#X7FF603CC86081DD9">3.4-4 GZ_DifferentialCode</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3_mj.html#X780769238600AFD1">3.4-5 Length</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3_mj.html#X784B20AB79F23689">3.4-6 GeneratorMatrixOfGZ_Code</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3_mj.html#X84EB7DAF7DB9DB9F">3.4-7 DesignedMinimumDistance</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3_mj.html#X7864B295782524EB">3.4-8 GZ_DecodeToCodeword</a></span>
+</div></div>
+<div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap3_mj.html#X7ACE2DF587589A08">3.5 <span class="Heading">Utilities for genus zero AG-codes</span></a>
+</span>
+<div class="ContSSBlock">
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3_mj.html#X853BF1BC7F6462B8">3.5-1 RestrictVectorSpace</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3_mj.html#X8596810487A72298">3.5-2 UPolCoeffsToSmallFieldNC</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3_mj.html#X7D6980057AF64327">3.5-3 RandomVectorOfGivenWeight</a></span>
+</div></div>
+</div>
+
+<h3>3 <span class="Heading">How to use the package</span></h3>
+
+<p><a id="X7DA745887BFF189D" name="X7DA745887BFF189D"></a></p>
+
+<h4>3.1 <span class="Heading">Genus zero curves</span></h4>
+
+<p>The following functions are available:</p>
+
+<p><a id="X80F99CB17BC077A8" name="X80F99CB17BC077A8"></a></p>
+
+<h5>3.1-1 IsGZ_Curve</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IsGZ_Curve</code>( <var class="Arg">obj</var> )</td><td class="tdright">( category )</td></tr></table></div>
+<p>A genus zero curve is the projective line over an algebraically closed field.</p>
+
+<p><a id="X8442EE1B792650BA" name="X8442EE1B792650BA"></a></p>
+
+<h5>3.1-2 GZ_Curve</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; GZ_Curve</code>( <var class="Arg">K</var>, <var class="Arg">X</var> )</td><td class="tdright">( operation )</td></tr></table></div>
+<p>returns the corresponding genus zero divisor over the algebraic closure of the field <var class="Arg">K</var>. The indeterminate <var class="Arg">X</var> generates the corresponding rational function field <span class="SimpleMath">\(K(X)\)</span>.</p>
+
+<p><a id="X7D6DD3E382EA1965" name="X7D6DD3E382EA1965"></a></p>
+
+<h5>3.1-3 IndeterminateOfGZ_Curve</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IndeterminateOfGZ_Curve</code>( <var class="Arg">C</var> )</td><td class="tdright">( function )</td></tr></table></div>
+<p>returns the indeterminate of the function field of the genus zero curve <var class="Arg">C</var>.</p>
+
+<p><a id="X790470C48340E8F7" name="X790470C48340E8F7"></a></p>
+
+<h5>3.1-4 UnderlyingField</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; UnderlyingField</code>( <var class="Arg">C</var> )</td><td class="tdright">( attribute )</td></tr></table></div>
+<p>The underlying field of a genus zero curve is the field of coefficients of the corresponding algebraic function field.</p>
+
+<p><a id="X847F1C84795287B6" name="X847F1C84795287B6"></a></p>
+
+<h5>3.1-5 RandomPlaceOfGZ_Curve</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; RandomPlaceOfGZ_Curve</code>( <var class="Arg">C</var> )</td><td class="tdright">( operation )</td></tr></table></div>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; RandomPlaceOfGZ_Curve</code>( <var class="Arg">C</var>, <var class="Arg">d</var> )</td><td class="tdright">( operation )</td></tr></table></div>
+<p>returns a random rational place of the genus zero curve <var class="Arg">C</var>. If the second argument <var class="Arg">d</var> is given, then it returns a place of degree <var class="Arg">d</var>. Here, a place is a 1-point divisor of degree one. Notice that the place at infinity is rational.</p>
+
+
+<div class="example"><pre>
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Y:=Indeterminate(GF(9),"Y");</span>
+Y
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">C:=GZ_Curve(GF(9),Y);</span>
+&lt;GZ curve over GF(9) with indeterminate Y&gt;
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">aut:=AutomorphismGroup(C);</span>
+&lt;group of GZ curve automorphisms of size 720&gt;
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Random(aut);</span>
+GZ_CurveAut([ [ Z(3)^0, Z(3^2)^3 ], [ Z(3^2)^5, Z(3) ] ])
+</pre></div>
+
+<p><a id="X8307ED097B2DB06A" name="X8307ED097B2DB06A"></a></p>
+
+<h5>3.1-6 FrobeniusAutomorphismOfGZ_Curve</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; FrobeniusAutomorphismOfGZ_Curve</code>( <var class="Arg">C</var> )</td><td class="tdright">( operation )</td></tr></table></div>
+<p>returns the Frobenius automorphism of the underlying field of the genus zero curve <var class="Arg">C</var>. More precisely, the output is an AC-Frobenius automorphism in the sense of the package <strong class="pkg">OnAlgClosure</strong>, acting on the algebraic closure of the underlying finite field.</p>
+
+<p><a id="X7B3633597CAFA7AA" name="X7B3633597CAFA7AA"></a></p>
+
+<h5>3.1-7 IsGZ_CurveAutomorphism</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IsGZ_CurveAutomorphism</code>( <var class="Arg">obj</var> )</td><td class="tdright">( category )</td></tr></table></div>
+<p>With automorphisms of an algebraic curve <span class="SimpleMath">\(C\)</span> one means the automorphisms of the corresponding algebraic function field <span class="SimpleMath">\(K(C)\)</span>. For genus zero curves over finite fields, the algebraic function field is the field <span class="SimpleMath">\(K(t)\)</span> of rational functions in one indeterminate. <span class="SimpleMath">\(Aut(K(t))\)</span> consists of fractional linear mappings <span class="SimpleMath">\(t\mapsto \frac{a+bt}{c+dt}\)</span>, where <span class="SimpleMath">\(ad-bc\neq 0\)</span>. Hence, <span class="SimpleMath">\(Aut(K(t))\cong PGL(2,K)\)</span>.</p>
+
+<p>With fixed Frobenius automorphism <span class="SimpleMath">\(\Phi:x\mapsto x^q\)</span>, we can speak of <span class="SimpleMath">\(GF(q)\)</span>-rational automorphisms, or, automorphisms defined over <span class="SimpleMath">\(GF(q)\)</span>. These form a subgroup isomorphic to <span class="SimpleMath">\(PGL(2,q)\)</span>, having a faithful permutation representation of the set <span class="SimpleMath">\(GF(q)\cup \{\infty\}\)</span> of <span class="SimpleMath">\(GF(q)\)</span>-rational places.</p>
+
+<p><a id="X7EED9FF48672EFE9" name="X7EED9FF48672EFE9"></a></p>
+
+<h5>3.1-8 GZ_CurveAutomorphism</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; GZ_CurveAutomorphism</code>( <var class="Arg">mat</var> )</td><td class="tdright">( operation )</td></tr></table></div>
+<p>Returns: the automorphism <span class="SimpleMath">\(t\mapsto \frac{a+bt}{c+dt}\)</span> of the genus zero curve, where <var class="Arg">M</var> is the nonsingular <span class="SimpleMath">\(2\times 2\)</span> matrix <span class="SimpleMath">\(\begin{pmatrix}a &amp; c\\ b&amp; d\end{pmatrix}\)</span>.</p>
+
+<p><a id="X87677B0787B4461A" name="X87677B0787B4461A"></a></p>
+
+<h5>3.1-9 <span class="Heading">AutomorphismGroup</span></h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; MatrixGroupToGZ_CurveAutGroup</code>( <var class="Arg">matgr</var>, <var class="Arg">C</var> )</td><td class="tdright">( function )</td></tr></table></div>
+<p>Returns: the GZ curve automorphism group $G$ corresponding to the matrix group <var class="Arg">matgr</var>.</p>
+
+<p>The permutation action of <var class="Arg">matgr</var> on the set of rational places of <var class="Arg">C</var> is stored as a nice monomorphism of $G$.</p>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; AutomorphismGroup</code>( <var class="Arg">C</var> )</td><td class="tdright">( operation )</td></tr></table></div>
+<p>Returns: the automorphism group of the genus zero curve <var class="Arg">C</var>. The elements are genus zero automorphisms. The group is isomorphic to <span class="SimpleMath">\(PGL(2,q)\)</span>, where <span class="SimpleMath">\(GF(q)\)</span> is the underlying field of <var class="Arg">C</var>.</p>
+
+<p><a id="X876A3D977D462755" name="X876A3D977D462755"></a></p>
+
+<h4>3.2 <span class="Heading">Genus zero divisors</span></h4>
+
+<p>The following functions are available:</p>
+
+<p><a id="X8338F576793D136C" name="X8338F576793D136C"></a></p>
+
+<h5>3.2-1 IsGZ_Divisor</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IsGZ_Divisor</code>( <var class="Arg">obj</var> )</td><td class="tdright">( category )</td></tr></table></div>
+<p>A genus zero divisor is a divisor of an algebraic function field of genus 0. Genus zero divisors form an additive commutative group.</p>
+
+<p><a id="X82AC5A5C838D0594" name="X82AC5A5C838D0594"></a></p>
+
+<h5>3.2-2 GZ_DivisorConstruct</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; GZ_DivisorConstruct</code>( <var class="Arg">X</var>, <var class="Arg">pts</var>, <var class="Arg">ords</var> )</td><td class="tdright">( function )</td></tr></table></div>
+<p>returns the genus zero divisor over <span class="SimpleMath">\(K(X)\)</span> with points from <var class="Arg">pts</var> and corresponding orders from <var class="Arg">ords</var>. <span class="SimpleMath">\(K\)</span> is the prime field of the coefficient field of <var class="Arg">X</var>.</p>
+
+<p><a id="X7A5C7B027C47C3ED" name="X7A5C7B027C47C3ED"></a></p>
+
+<h5>3.2-3 GZ_Divisor</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; GZ_Divisor</code>( <var class="Arg">C</var>, <var class="Arg">pts</var>, <var class="Arg">ords</var> )</td><td class="tdright">( operation )</td></tr></table></div>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; GZ_Divisor</code>( <var class="Arg">C</var>, <var class="Arg">pairs</var> )</td><td class="tdright">( operation )</td></tr></table></div>
+<p>returns the corresponding genus zero divisor over the algebraic function field <var class="Arg">F</var>. If the indeterminate <var class="Arg">X</var> is given, then <span class="SimpleMath">\(F=K(X)\)</span>, where <span class="SimpleMath">\(K\)</span> is the prime field of the coefficient field of <var class="Arg">X</var>.</p>
+
+<p><a id="X874E47E3850CC5DC" name="X874E47E3850CC5DC"></a></p>
+
+<h5>3.2-4 GZ_1PointDivisor</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; GZ_1PointDivisor</code>( <var class="Arg">C</var>, <var class="Arg">pt</var> )</td><td class="tdright">( operation )</td></tr></table></div>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; GZ_1PointDivisor</code>( <var class="Arg">C</var>, <var class="Arg">pt</var>, <var class="Arg">m</var> )</td><td class="tdright">( operation )</td></tr></table></div>
+<p>returns the zero divisor over the algebraic function field <var class="Arg">F</var> of genus zero. If the indeterminate <var class="Arg">X</var> is given, then <span class="SimpleMath">\(F=K(X)\)</span>, where <span class="SimpleMath">\(K\)</span> is the prime field of the coefficient field of <var class="Arg">X</var>.</p>
+
+<p><a id="X8200279679BB7FEF" name="X8200279679BB7FEF"></a></p>
+
+<h5>3.2-5 GZ_ZeroDivisor</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; GZ_ZeroDivisor</code>( <var class="Arg">C</var> )</td><td class="tdright">( operation )</td></tr></table></div>
+<p>returns the zero divisor over the algebraic function field <var class="Arg">F</var> of genus zero. If the indeterminate <var class="Arg">X</var> is given, then <span class="SimpleMath">\(F=K(X)\)</span>, where <span class="SimpleMath">\(K\)</span> is the prime field of the coefficient field of <var class="Arg">X</var>.</p>
+
+<p><a id="X856D9CBB87DC9682" name="X856D9CBB87DC9682"></a></p>
+
+<h5>3.2-6 IsRationalGZ_Divisor</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IsRationalGZ_Divisor</code>( <var class="Arg">D</var> )</td><td class="tdright">( attribute )</td></tr></table></div>
+<p>Returns true if <var class="Arg">D</var> is invariant under the Frobenius automorphism of the underling genus zero curve.</p>
+
+<p><a id="X790470C48340E8F7" name="X790470C48340E8F7"></a></p>
+
+<h5>3.2-7 UnderlyingField</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; UnderlyingField</code>( <var class="Arg">D</var> )</td><td class="tdright">( attribute )</td></tr></table></div>
+<p>The underlying field of a genus zero divisor is the field of coefficients of the corresponding algebraic function field.</p>
+
+<p><a id="X7B689C0284AC4296" name="X7B689C0284AC4296"></a></p>
+
+<h5>3.2-8 Support</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; Support</code>( <var class="Arg">D</var> )</td><td class="tdright">( attribute )</td></tr></table></div>
+<p>The support of a genus zero divisor is the set of points with nonzero orders.</p>
+
+<p><a id="X80D67BB67A509A56" name="X80D67BB67A509A56"></a></p>
+
+<h5>3.2-9 Valuation</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; Valuation</code>( <var class="Arg">t</var>, <var class="Arg">D</var> )</td><td class="tdright">( operation )</td></tr></table></div>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; Valuation</code>( <var class="Arg">t</var>, <var class="Arg">ratfun</var> )</td><td class="tdright">( operation )</td></tr></table></div>
+<p>The valuation of a genus zero divisor <span class="SimpleMath">\(D\)</span> at the point <span class="SimpleMath">\(t\)</span> is its corresponding order. The valuation of a rational function <span class="SimpleMath">\(f=g/h\)</span> at the point <var class="Arg">t</var> is either the multiplicity of the root <var class="Arg">t</var> in <span class="SimpleMath">\(g\)</span>, or minus the multiplicity of the root <var class="Arg">t</var> in <span class="SimpleMath">\(h\)</span>. If <var class="Arg">t</var> is <span class="SimpleMath">\(\infty\)</span> then the valuation is <span class="SimpleMath">\(\deg(h)-\deg(g)\)</span>.</p>
+
+<p><a id="X8358FD3885FABA30" name="X8358FD3885FABA30"></a></p>
+
+<h5>3.2-10 GZ_PrincipalDivisor</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; GZ_PrincipalDivisor</code>( <var class="Arg">C</var>, <var class="Arg">f</var> )</td><td class="tdright">( function )</td></tr></table></div>
+<p>returns the principal divisor of the rational function <var class="Arg">f</var> of the genus zero curve <var class="Arg">C</var>.</p>
+
+<p><a id="X87956889816FD1AF" name="X87956889816FD1AF"></a></p>
+
+<h5>3.2-11 GZ_SupremumDivisor</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; GZ_SupremumDivisor</code>( <var class="Arg">D1</var>, <var class="Arg">D2</var> )</td><td class="tdright">( function )</td></tr></table></div>
+<p>returns the place-wise maximum of the orders of <var class="Arg">D1</var> and <var class="Arg">D2</var>.</p>
+
+<p><a id="X7FF1448D7B18F5C3" name="X7FF1448D7B18F5C3"></a></p>
+
+<h5>3.2-12 GZ_InfimumDivisor</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; GZ_InfimumDivisor</code>( <var class="Arg">D1</var>, <var class="Arg">D2</var> )</td><td class="tdright">( function )</td></tr></table></div>
+<p>returns the place-wise minimum of the orders of <var class="Arg">D1</var> and <var class="Arg">D2</var>.</p>
+
+<p><a id="X83C3A64A7CBC9FCC" name="X83C3A64A7CBC9FCC"></a></p>
+
+<h5>3.2-13 GZ_PositivePartOfDivisor</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; GZ_PositivePartOfDivisor</code>( <var class="Arg">D</var> )</td><td class="tdright">( function )</td></tr></table></div>
+<p>returns the positive part of the divisor <var class="Arg">D</var>.</p>
+
+<p><a id="X81E7F42279A17CA2" name="X81E7F42279A17CA2"></a></p>
+
+<h5>3.2-14 GZ_NegativePartOfDivisor</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; GZ_NegativePartOfDivisor</code>( <var class="Arg">D</var> )</td><td class="tdright">( function )</td></tr></table></div>
+<p>returns the negative part of the divisor <var class="Arg">D</var>.</p>
+
+
+<div class="example"><pre>
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">p1:=GZ_1PointDivisor(C,infinity);</span>
+&lt;GZ divisor with support of length 1 over indeterminate Y&gt;
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">p2:=GZ_1PointDivisor(C,Z(3));</span>
+&lt;GZ divisor with support of length 1 over indeterminate Y&gt;
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">d:=3*p1-4*p2;</span>
+&lt;GZ divisor with support of length 2 over indeterminate Y&gt;
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Support(d);</span>
+[ infinity, Z(3) ]
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">UnderlyingField(d);</span>
+GF(3^2)
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Zero(d);</span>
+&lt;GZ divisor with support of length 0 over indeterminate Y&gt;
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Characteristic(d);</span>
+3
+gap&gt;
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">d:=GZ_Divisor(C,[Z(27)^2,Z(3),infinity],[5,-1,2]);</span>
+&lt;GZ divisor with support of length 3 over indeterminate Y&gt;
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Valuation(Z(3),d);</span>
+-1
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Valuation(Z(3)^2,d);</span>
+0
+gap&gt;
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">fr:=AC_FrobeniusAutomorphism(9);</span>
+AC_FrobeniusAutomorphism(3^2)
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">d^fr;</span>
+&lt;GZ divisor with support of length 3 over indeterminate Y&gt;
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Support(d^fr);</span>
+[ infinity, Z(3), Z(3^3)^18 ]
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Support(d);</span>
+[ infinity, Z(3), Z(3^3)^2 ]
+gap&gt;
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">rf:=Y^8-1;</span>
+Y^8-Z(3)^0
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">List(GF(9),u-&gt;Valuation(u,rf));</span>
+[ 0, 1, 1, 1, 1, 1, 1, 1, 1 ]
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">List(GF(9),u-&gt;Valuation(u,One(Y)));</span>
+[ 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">List(GF(9),u-&gt;Valuation(u,Zero(Y)));</span>
+[ -infinity, -infinity, -infinity, -infinity, -infinity, -infinity,
+  -infinity, -infinity, -infinity ]
+gap&gt;
+gap&gt;
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">List(GF(3),u-&gt;Valuation(u,One(Y)));</span>
+[ 0, 0, 0 ]
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">List(GF(3),u-&gt;Valuation(u,Zero(Y)));</span>
+[ -infinity, -infinity, -infinity ]
+</pre></div>
+
+<p><a id="X7F6CA34585EEDA75" name="X7F6CA34585EEDA75"></a></p>
+
+<h4>3.3 <span class="Heading">Genus zero Riemann-Roch spaces</span></h4>
+
+<p><a id="X83EC2B2C801216DD" name="X83EC2B2C801216DD"></a></p>
+
+<h5>3.3-1 GZ_Equivalent1PointDivisor</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; GZ_Equivalent1PointDivisor</code>( <var class="Arg">D</var> )</td><td class="tdright">( function )</td></tr></table></div>
+<p>returns the pair <span class="SimpleMath">\(f,m\)</span>, where <span class="SimpleMath">\(f\)</span> is a rational function and <span class="SimpleMath">\(m\)</span> is an integer such that <span class="SimpleMath">\(D=Div(f)+m P_{\infty}\)</span>. In particular, <span class="SimpleMath">\(D\)</span> is equivalent to the 1-point divisor <span class="SimpleMath">\(mP_{\infty}\)</span>.</p>
+
+<p><a id="X824E0C947B314093" name="X824E0C947B314093"></a></p>
+
+<h5>3.3-2 GZ_RiemannRochSpaceBasis</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; GZ_RiemannRochSpaceBasis</code>( <var class="Arg">D</var> )</td><td class="tdright">( function )</td></tr></table></div>
+<p>returns a <strong class="button">basis</strong> of the Riemann-Roch space of the genus zero divisor <var class="Arg">D</var>, which is defined by <span class="SimpleMath">\(\{ f \in K[Y] \mid Div(f) \geq - D \}\)</span>.</p>
+
+
+<div class="example"><pre>
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">a:=RandomPlaceOfGZ_Curve(C,4);</span>
+&lt;GZ divisor with support of length 1 over indeterminate Y&gt;
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">fr:=FrobeniusAutomorphismOfGZ_Curve(C);</span>
+AC_FrobeniusAutomorphism(3^2)
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">d:=Sum(AC_FrobeniusAutomorphismOrbit(fr,a));</span>
+&lt;GZ divisor with support of length 4 over indeterminate Y&gt;
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">IsRationalGZ_Divisor(d);</span>
+true
+gap&gt;
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">GZ_RiemannRochSpaceBasis(3*d);</span>
+[ Z(3)^0/(Y^12+Y^9+Z(3^2)^2*Y^6+Z(3^2)^3*Y^3+Z(3^2)^2),
+  Y/(Y^12+Y^9+Z(3^2)^2*Y^6+Z(3^2)^3*Y^3+Z(3^2)^2),
+  Y^2/(Y^12+Y^9+Z(3^2)^2*Y^6+Z(3^2)^3*Y^3+Z(3^2)^2),
+  Y^3/(Y^12+Y^9+Z(3^2)^2*Y^6+Z(3^2)^3*Y^3+Z(3^2)^2),
+  Y^4/(Y^12+Y^9+Z(3^2)^2*Y^6+Z(3^2)^3*Y^3+Z(3^2)^2),
+  Y^5/(Y^12+Y^9+Z(3^2)^2*Y^6+Z(3^2)^3*Y^3+Z(3^2)^2),
+  Y^6/(Y^12+Y^9+Z(3^2)^2*Y^6+Z(3^2)^3*Y^3+Z(3^2)^2),
+  Y^7/(Y^12+Y^9+Z(3^2)^2*Y^6+Z(3^2)^3*Y^3+Z(3^2)^2),
+  Y^8/(Y^12+Y^9+Z(3^2)^2*Y^6+Z(3^2)^3*Y^3+Z(3^2)^2),
+  Y^9/(Y^12+Y^9+Z(3^2)^2*Y^6+Z(3^2)^3*Y^3+Z(3^2)^2),
+  Y^10/(Y^12+Y^9+Z(3^2)^2*Y^6+Z(3^2)^3*Y^3+Z(3^2)^2),
+  Y^11/(Y^12+Y^9+Z(3^2)^2*Y^6+Z(3^2)^3*Y^3+Z(3^2)^2),
+  Y^12/(Y^12+Y^9+Z(3^2)^2*Y^6+Z(3^2)^3*Y^3+Z(3^2)^2) ]
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">ForAll(last,x-&gt;x=x^fr);</span>
+true
+</pre></div>
+
+<p><a id="X8519CCF8782192CA" name="X8519CCF8782192CA"></a></p>
+
+<h4>3.4 <span class="Heading">Genus zero AG-codes</span></h4>
+
+<p>The following functions are available:</p>
+
+<p><a id="X810A5F387B8EEA48" name="X810A5F387B8EEA48"></a></p>
+
+<h5>3.4-1 IsGZ_Code</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IsGZ_Code</code>( <var class="Arg">obj</var> )</td><td class="tdright">( category )</td></tr></table></div>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IsGZ_FunctionalCode</code>( <var class="Arg">obj</var> )</td><td class="tdright">( category )</td></tr></table></div>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IsGZ_DifferentialCode</code>( <var class="Arg">obj</var> )</td><td class="tdright">( category )</td></tr></table></div>
+<p>A genus zero code is an algebraic-geometric code defined on an algebraic curve of genus zero. AG-codes are either of functional or of differential type.</p>
+
+<p><a id="X84E44E038531B3E7" name="X84E44E038531B3E7"></a></p>
+
+<h5>3.4-2 GeneratorMatrixOfFunctionalGZ_CodeNC</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; GeneratorMatrixOfFunctionalGZ_CodeNC</code>( <var class="Arg">G</var>, <var class="Arg">pls</var> )</td><td class="tdright">( function )</td></tr></table></div>
+<p>returns the generator matrix of the functional AG code <span class="SimpleMath">\(C_L(D,G)\)</span>, where <span class="SimpleMath">\(D\)</span> is the sum of the degree one places in the list <var class="Arg">pls</var>. The support of <var class="Arg">G</var> must be disjoint from <var class="Arg">pls</var>.</p>
+
+<p><a id="X7B55263684F49B0B" name="X7B55263684F49B0B"></a></p>
+
+<h5>3.4-3 GZ_FunctionalCode</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; GZ_FunctionalCode</code>( <var class="Arg">G</var>, <var class="Arg">D</var> )</td><td class="tdright">( operation )</td></tr></table></div>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; GZ_FunctionalCode</code>( <var class="Arg">G</var> )</td><td class="tdright">( operation )</td></tr></table></div>
+<p>returns the functional AG code <span class="SimpleMath">\(C_L(D,G)=\{(f(P_1),\ldots,f(P_n)) \mid f\in L(G)\}.\)</span> <span class="SimpleMath">\(D\)</span> and <span class="SimpleMath">\(G\)</span> are rational divisors of the genus zero curve <span class="SimpleMath">\(C\)</span>. <span class="SimpleMath">\(D=P_1+\cdots+D_n\)</span>, where <span class="SimpleMath">\(P_1,\ldots,P_n\)</span> are degree one places of <span class="SimpleMath">\(C\)</span>. The supports of <span class="SimpleMath">\(D\)</span> and <span class="SimpleMath">\(G\)</span> are disjoint. If <span class="SimpleMath">\(D\)</span> is not given then it is the sum of affine rational places of <span class="SimpleMath">\(C\)</span>. By the Riemann-Roch theorem, functional codes have dimension <span class="SimpleMath">\(\deg(G)+1-g\)</span>.</p>
+
+<p><a id="X7FF603CC86081DD9" name="X7FF603CC86081DD9"></a></p>
+
+<h5>3.4-4 GZ_DifferentialCode</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; GZ_DifferentialCode</code>( <var class="Arg">G</var>, <var class="Arg">D</var> )</td><td class="tdright">( operation )</td></tr></table></div>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; GZ_DifferentialCode</code>( <var class="Arg">G</var> )</td><td class="tdright">( operation )</td></tr></table></div>
+<p>returns the differential AG code <span class="SimpleMath">\(C_\Omega(D,G) = \{res_{P_1}(\omega),\ldots,res_{P_n}(\omega) \mid \omega \in \Omega(G-D)\}.\)</span> <span class="SimpleMath">\(D\)</span> and <span class="SimpleMath">\(G\)</span> are rational divisors of the genus zero curve <span class="SimpleMath">\(C\)</span>. <span class="SimpleMath">\(D=P_1+\cdots+D_n\)</span>, where <span class="SimpleMath">\(P_1,\ldots,P_n\)</span> are degree one places of <span class="SimpleMath">\(C\)</span>. The supports of <span class="SimpleMath">\(D\)</span> and <span class="SimpleMath">\(G\)</span> are disjoint. If <span class="SimpleMath">\(D\)</span> is not given then it is the sum of affine rational places of <span class="SimpleMath">\(C\)</span>. The differential code is the dual of the corresponding functional code. By the Riemann-Roch theorem, differential codes have dimension <span class="SimpleMath">\(n-\deg(G)-1+g\)</span>.</p>
+
+<p><a id="X780769238600AFD1" name="X780769238600AFD1"></a></p>
+
+<h5>3.4-5 Length</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; Length</code>( <var class="Arg">C</var> )</td><td class="tdright">( attribute )</td></tr></table></div>
+<p>returns the length of the AG code <var class="Arg">C</var>.</p>
+
+<p><a id="X784B20AB79F23689" name="X784B20AB79F23689"></a></p>
+
+<h5>3.4-6 GeneratorMatrixOfGZ_Code</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; GeneratorMatrixOfGZ_Code</code>( <var class="Arg">C</var> )</td><td class="tdright">( attribute )</td></tr></table></div>
+<p>returns the generator matrix of the AG code <var class="Arg">C</var> in <strong class="pkg">CVEC</strong> matrix format.</p>
+
+<p><a id="X84EB7DAF7DB9DB9F" name="X84EB7DAF7DB9DB9F"></a></p>
+
+<h5>3.4-7 DesignedMinimumDistance</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; DesignedMinimumDistance</code>( <var class="Arg">C</var> )</td><td class="tdright">( attribute )</td></tr></table></div>
+<p>returns the designed minimum distance <span class="SimpleMath">\(\delta\)</span> of the genus zero AG code <var class="Arg">C</var>. When <span class="SimpleMath">\(\deg(G)\geq 2g-2\)</span>, then the general formulas for <span class="SimpleMath">\(\delta\)</span> are as follows. For the functional code <span class="SimpleMath">\(C_L(D,G)\)</span>, <span class="SimpleMath">\(\delta=n-\deg(G)\)</span>, and for the differential code <span class="SimpleMath">\(C_\Omega(D,G)\)</span>, <span class="SimpleMath">\(\delta=\deg(G)-(2g-2)\)</span>. For genus zero curves, <span class="SimpleMath">\(g=0\)</span> and these formulas give the true minimum distances.</p>
+
+
+<div class="example"><pre>
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">code:=GZ_FunctionalCode(d);</span>
+&lt;[9,5] genus zero AG-code over GF(3^2)&gt;
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Print(code);</span>
+GZ_FunctionalCode(GZ_Divisor(GZ_Curve(GF(9),Y),
+[ Z(3^8)^302, Z(3^8)^2718, Z(3^8)^3678, Z(3^8)^4782 ],
+[ 1, 1, 1, 1 ]),GZ_Divisor(GZ_Curve(GF(9),Y),
+[ 0*Z(3), Z(3)^0, Z(3), Z(3^2), Z(3^2)^2, Z(3^2)^3, Z(3^2)^5,
+  Z(3^2)^6, Z(3^2)^7 ],[ 1, 1, 1, 1, 1, 1, 1, 1, 1 ]))
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">DesignedMinimumDistance(code);</span>
+5
+</pre></div>
+
+<p><a id="X7864B295782524EB" name="X7864B295782524EB"></a></p>
+
+<h5>3.4-8 GZ_DecodeToCodeword</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; GZ_DecodeToCodeword</code>( <var class="Arg">C</var>, <var class="Arg">w</var> )</td><td class="tdright">( operation )</td></tr></table></div>
+<p>Let <span class="SimpleMath">\(\delta\)</span> be the designed minimum distance of <var class="Arg">C</var>, and define <span class="SimpleMath">\(t=[(\delta-1)/2]\)</span>. If there is a codeword <span class="SimpleMath">\(c\in C\)</span> with <span class="SimpleMath">\(d(c,w)\leq t\)</span> then <span class="SimpleMath">\(c\)</span> is returned. Otherwise, the output is <code class="code">fail</code>.</p>
+
+<p>The decoding algorithm is from [Hoholdt-Pellikaan 1995]. The function <code class="code">GZ_DECODER_DATA</code> precomputes two matrices which are stored as attributes of the AG code. The decoding consists of solving linear equations.</p>
+
+
+<div class="example"><pre>
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">q:=5^3;</span>
+125
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput"># construct the curve and the divisors</span>
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Y:=Indeterminate(GF(q),"Y");</span>
+Y
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">C:=GZ_Curve(GF(q),Y);</span>
+&lt;GZ curve over GF(125) with indeterminate Y&gt;
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">P_infty:=GZ_1PointDivisor(C,infinity);</span>
+&lt;GZ divisor with support of length 1 over indeterminate Y&gt;
+gap&gt;
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">fr:=FrobeniusAutomorphismOfGZ_Curve(C);</span>
+AC_FrobeniusAutomorphism(5^3)
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">P4:=Sum(AC_FrobeniusAutomorphismOrbit(fr,RandomPlaceOfGZ_Curve(C,4)));</span>
+&lt;GZ divisor with support of length 4 over indeterminate Y&gt;
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">G:=5*P4+7*P_infty;</span>
+&lt;GZ divisor with support of length 5 over indeterminate Y&gt;
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Degree(G);</span>
+27
+gap&gt;
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">len:=90;</span>
+90
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">D:=Sum([1..len],i-&gt;GZ_1PointDivisor(C,Elements(GF(q))[i]));</span>
+&lt;GZ divisor with support of length 90 over indeterminate Y&gt;
+gap&gt;
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput"># construct the AG differential code</span>
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">agcode:=GZ_DifferentialCode(G,D);</span>
+&lt;[90,62] genus zero AG-code over GF(5^3)&gt;
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">DesignedMinimumDistance(agcode);</span>
+29
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Length(agcode)-Degree(G)-1;</span>
+62
+gap&gt;
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput"># test codeword generation</span>
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">t:=Int((DesignedMinimumDistance(agcode)-1)/2);</span>
+14
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">sent:=Random(agcode);;</span>
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">err:=RandomVectorOfGivenWeight(GF(q),Length(agcode),t);;</span>
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">received:=sent+err;;</span>
+gap&gt;
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput"># decoding</span>
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">sent_decoded:=GZ_DecodeToCodeword(agcode,received);</span>
+&lt;cvec over GF(5,3) of length 90&gt;
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">sent=sent_decoded;</span>
+true
+</pre></div>
+
+<p><a id="X7ACE2DF587589A08" name="X7ACE2DF587589A08"></a></p>
+
+<h4>3.5 <span class="Heading">Utilities for genus zero AG-codes</span></h4>
+
+<p><a id="X853BF1BC7F6462B8" name="X853BF1BC7F6462B8"></a></p>
+
+<h5>3.5-1 RestrictVectorSpace</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; RestrictVectorSpace</code>( <var class="Arg">V</var>, <var class="Arg">F</var> )</td><td class="tdright">( function )</td></tr></table></div>
+<p>Let <span class="SimpleMath">\(K\)</span> be a field and <span class="SimpleMath">\(V\)</span> a linear subspace of <span class="SimpleMath">\(K^n\)</span>. The restriction of <var class="Arg">V</var> to the field <var class="Arg">F</var> is the intersection <span class="SimpleMath">\(V\cap F^n\)</span>.</p>
+
+<p><a id="X8596810487A72298" name="X8596810487A72298"></a></p>
+
+<h5>3.5-2 UPolCoeffsToSmallFieldNC</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; UPolCoeffsToSmallFieldNC</code>( <var class="Arg">f</var>, <var class="Arg">q</var> )</td><td class="tdright">( function )</td></tr></table></div>
+<p>This non-checking function returns the same polynomial as <var class="Arg">f</var>, making sure that the coefficients are in <span class="SimpleMath">\(GF(q)\)</span>.</p>
+
+<p><a id="X7D6980057AF64327" name="X7D6980057AF64327"></a></p>
+
+<h5>3.5-3 RandomVectorOfGivenWeight</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; RandomVectorOfGivenWeight</code>( <var class="Arg">F</var>, <var class="Arg">n</var>, <var class="Arg">k</var> )</td><td class="tdright">( function )</td></tr></table></div>
+<p>returns a random vector of <span class="SimpleMath">\(F^n\)</span> of Hamming weight <span class="SimpleMath">\(k\)</span>.</p>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; RandomVectorOfGivenDensity</code>( <var class="Arg">F</var>, <var class="Arg">n</var>, <var class="Arg">delta</var> )</td><td class="tdright">( function )</td></tr></table></div>
+<p>returns a random vector of <span class="SimpleMath">\(F^n\)</span> in which the density of nonzero elements is approxiamtively <span class="SimpleMath">\(\delta\)</span>.</p>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; RandomBinaryVectorOfGivenWeight</code>( <var class="Arg">n</var>, <var class="Arg">k</var> )</td><td class="tdright">( function )</td></tr></table></div>
+<p>returns a random vector of <span class="SimpleMath">\(GF(2)^n\)</span> of Hamming weight <span class="SimpleMath">\(k\)</span>.</p>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; RandomBinaryVectorOfGivenDensity</code>( <var class="Arg">n</var>, <var class="Arg">delta</var> )</td><td class="tdright">( function )</td></tr></table></div>
+<p>returns a random vector of <span class="SimpleMath">\(GF(2)^n\)</span> in which the density of nonzero elements is approxiamtively <span class="SimpleMath">\(\delta\)</span>.</p>
+
+
+<div class="chlinkprevnextbot">&nbsp;<a href="chap0_mj.html">[Top of Book]</a>&nbsp;  <a href="chap0_mj.html#contents">[Contents]</a>&nbsp;  &nbsp;<a href="chap2_mj.html">[Previous Chapter]</a>&nbsp;  &nbsp;<a href="chap4_mj.html">[Next Chapter]</a>&nbsp;  </div>
+
+
+<div class="chlinkbot"><span class="chlink1">Goto Chapter: </span><a href="chap0_mj.html">Top</a>  <a href="chap1_mj.html">1</a>  <a href="chap2_mj.html">2</a>  <a href="chap3_mj.html">3</a>  <a href="chap4_mj.html">4</a>  <a href="chapInd_mj.html">Ind</a>  </div>
+
+<hr />
+<p class="foot">generated by <a href="http://www.math.rwth-aachen.de/~Frank.Luebeck/GAPDoc">GAPDoc2HTML</a></p>
+</body>
+</html>

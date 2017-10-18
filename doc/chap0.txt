@@ -1,0 +1,97 @@
+  
+  
+                               [1XThe [5XGZero[105X Package[101X
+  
+  
+  [1XDivisors and Riemann-Roch Spaces of Algebraic Function Fields of Genus Zero[101X
+  
+  
+                                  Version 0.21
+  
+  
+                                12 October 2017
+  
+  
+                                 Gábor P. Nagy
+  
+  
+  
+  Gábor P. Nagy
+      Email:    [7Xmailto:nagyg@math.u-szeged.hu[107X
+      Homepage: [7Xhttp://www.math.u-szeged.hu/~nagyg/[107X
+  
+  -------------------------------------------------------
+  [1XCopyright[101X
+  [33X[0;0Y© 2017 by Gábor P. Nagy[133X
+  
+  [33X[0;0Y[5XGZero[105X  package  is  free  software; you can redistribute it and/or modify it
+  under     the     terms     of    the    GNU    General    Public    License
+  ([7Xhttp://www.fsf.org/licenses/gpl.html[107X)  as  published  by  the Free Software
+  Foundation;  either  version 2 of the License, or (at your option) any later
+  version.[133X
+  
+  
+  -------------------------------------------------------
+  [1XAcknowledgements[101X
+  [33X[0;0YWe  appreciate  very  much  all  past  and  future comments, suggestions and
+  contributions  to  this  package and its documentation provided by [5XGAP[105X users
+  and developers.[133X
+  
+  
+  -------------------------------------------------------
+  
+  
+  [1XContents (GZero)[101X
+  
+  1 [33X[0;0YIntroduction[133X
+    1.1 [33X[0;0YUnpacking the [5XGZero[105X Package[133X
+    1.2 [33X[0;0YLoading the [5XGZero[105X Package[133X
+    1.3 [33X[0;0YTesting the [5XGZero[105X Package[133X
+  2 [33X[0;0YMathematical background[133X
+    2.1 [33X[0;0YBlabla[133X
+  3 [33X[0;0YHow to use the package[133X
+    3.1 [33X[0;0YGenus zero curves[133X
+      3.1-1 IsGZ_Curve
+      3.1-2 GZ_Curve
+      3.1-3 IndeterminateOfGZ_Curve
+      3.1-4 UnderlyingField
+      3.1-5 RandomPlaceOfGZ_Curve
+      3.1-6 FrobeniusAutomorphismOfGZ_Curve
+      3.1-7 IsGZ_CurveAutomorphism
+      3.1-8 GZ_CurveAutomorphism
+      3.1-9 [33X[0;0YAutomorphismGroup[133X
+    3.2 [33X[0;0YGenus zero divisors[133X
+      3.2-1 IsGZ_Divisor
+      3.2-2 GZ_DivisorConstruct
+      3.2-3 GZ_Divisor
+      3.2-4 GZ_1PointDivisor
+      3.2-5 GZ_ZeroDivisor
+      3.2-6 IsRationalGZ_Divisor
+      3.2-7 UnderlyingField
+      3.2-8 Support
+      3.2-9 Valuation
+      3.2-10 GZ_PrincipalDivisor
+      3.2-11 GZ_SupremumDivisor
+      3.2-12 GZ_InfimumDivisor
+      3.2-13 GZ_PositivePartOfDivisor
+      3.2-14 GZ_NegativePartOfDivisor
+    3.3 [33X[0;0YGenus zero Riemann-Roch spaces[133X
+      3.3-1 GZ_Equivalent1PointDivisor
+      3.3-2 GZ_RiemannRochSpaceBasis
+    3.4 [33X[0;0YGenus zero AG-codes[133X
+      3.4-1 IsGZ_Code
+      3.4-2 GeneratorMatrixOfFunctionalGZ_CodeNC
+      3.4-3 GZ_FunctionalCode
+      3.4-4 GZ_DifferentialCode
+      3.4-5 Length
+      3.4-6 GeneratorMatrixOfGZ_Code
+      3.4-7 DesignedMinimumDistance
+      3.4-8 GZ_DecodeToCodeword
+    3.5 [33X[0;0YUtilities for genus zero AG-codes[133X
+      3.5-1 RestrictVectorSpace
+      3.5-2 UPolCoeffsToSmallFieldNC
+      3.5-3 RandomVectorOfGivenWeight
+  4 [33X[0;0YAn example: BCH codes as genus zero AG-codes[133X
+  
+  
+  [32X
