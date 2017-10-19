@@ -12,7 +12,7 @@
 <Section Label="Blabla">
 <Heading>Blabla</Heading>
 
-Blabla.
+Blabla. <Cite Key="Stichtenoth_book"/> <Cite Key="HKT_book"/> <Cite Key="GAP4"/>
 
 </Section>
 </Chapter>
@@ -23,4 +23,3 @@ Blabla.
 <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
 <!-- %% -->
 <!-- %E -->
-

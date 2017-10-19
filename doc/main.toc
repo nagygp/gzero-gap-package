@@ -47,4 +47,5 @@
 \contentsline {subsection}{\numberline {3.5.2}\leavevmode {\color {Chapter }UPolCoeffsToSmallFieldNC}}{15}{subsection.3.5.2}
 \contentsline {subsection}{\numberline {3.5.3}\leavevmode {\color {Chapter }RandomVectorOfGivenWeight}}{15}{subsection.3.5.3}
 \contentsline {chapter}{\numberline {4}\leavevmode {\color {Chapter }An example: BCH codes as genus zero AG-codes}}{17}{chapter.4}
-\contentsline {chapter}{Index}{19}{section*.4}
+\contentsline {chapter}{References}{19}{chapter*.4}
+\contentsline {chapter}{Index}{20}{section*.5}

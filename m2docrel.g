@@ -7,9 +7,10 @@ doc_path := "/home/nagyg/MyGAP/pkg/GZero/doc";
 xml_path := "/home/nagyg/MyGAP/pkg/GZero/xml";
 
 Exec( Concatenation( "cp ", xml_path, "/*.xml", " ", doc_path ) );
+Exec( Concatenation( "cp ", xml_path, "/*.bib", " ", doc_path ) );
 
 opts:=GAPDoc2LaTeXProcs.DefaultOptions;
-Append(opts.FontPackages,"\\usepackage{amsmath}\n"); 
+Append(opts.FontPackages,"\\usepackage{amsmath}\n");
 SetGapDocLaTeXOptions(opts);
 
 MakeGAPDocDoc( doc_path,     # path to the directory containing the main file
