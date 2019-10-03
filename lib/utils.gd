@@ -58,7 +58,7 @@ DeclareGlobalFunction( "RestrictVectorSpace" );
 ##
 ##  <Func Name="RandomVectorOfGivenDensity" Arg='F,n,delta' />
 ##  <Description>
-##  returns a random vector of <M>F^n</M> in which the density of nonzero elements is approxiamtively <M>\delta</M>.
+##  returns a random vector of <M>F^n</M> in which the density of nonzero elements is approximatively <M>\delta</M>.
 ##  </Description>
 ##
 ##  <Func Name="RandomBinaryVectorOfGivenWeight" Arg='n,k' />
@@ -68,7 +68,7 @@ DeclareGlobalFunction( "RestrictVectorSpace" );
 ##
 ##  <Func Name="RandomBinaryVectorOfGivenDensity" Arg='n,delta' />
 ##  <Description>
-##  returns a random vector of <M>GF(2)^n</M> in which the density of nonzero elements is approxiamtively <M>\delta</M>.
+##  returns a random vector of <M>GF(2)^n</M> in which the density of nonzero elements is approximatively <M>\delta</M>.
 ##  </Description>
 ##
 

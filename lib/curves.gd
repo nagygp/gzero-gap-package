@@ -46,7 +46,7 @@ BindGlobal("GZ_CurveFamily",NewFamily("GZ_CurveFam"));
 ##  <Oper Name="GZ_Curve" Arg='K,X'/>
 ##
 ##  <Description>
-##  returns the corresponding genus zero divisor over the algebraic closure
+##  returns the corresponding genus zero curve over the algebraic closure
 ##  of the field <A>K</A>. The indeterminate <A>X</A> generates the corresponding
 ##  rational function field <M>K(X)</M>.
 ##  </Description>
